@@ -3,7 +3,6 @@
   import "@appwrite.io/pink-icons";
 </script>
 
-<template>
   <section>
     <div
       class="card u-cross-center u-width-full-line u-max-width-400"
@@ -18,7 +17,7 @@
               <input
                 type="email"
                 class="input-text u-padding-inline-end-56"
-                placeholder="email address"
+                placeholder="Email address"
                 name="email"
               />
             </div>
@@ -30,7 +29,7 @@
               <input
                 type="password"
                 class="input"
-                placeholder="password"
+                placeholder="Password"
                 name="password"
               />
             </div>
@@ -42,7 +41,7 @@
               <input
                 type="password"
                 class="input"
-                placeholder="password"
+                placeholder="Confirm password"
                 name="password"
               />
             </div>
@@ -57,4 +56,4 @@
       </form>
     </div>
   </section>
-</template>
+
