@@ -4,5 +4,5 @@
 </script>
 
 <template>
-    <h1 class="card u-text-center">Headerrrr</h1>
+    <h1 class="">Headerrrr</h1>
 </template>

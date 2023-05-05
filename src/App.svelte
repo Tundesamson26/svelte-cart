@@ -1,14 +1,16 @@
 <script>
-  import "@appwrite.io/pink"; // optionally, add icons
-  import "@appwrite.io/pink-icons";
-  import Header from "./components/Header.svelte";
+  import Signup from './components/Signup.svelte';
 </script>
 
 <main>
-  <div>
-    <Header />
-  </div>
+  <section class="u-text-center" style="margin: 50px auto;">
+    <h1 class="u-font-size-32 u-text-center">Svelte Authentication app</h1>
+    <div class="u-cross-center">
+        <Signup />
+    </div>
+  </section>
 </main>
 
 <style>
+
 </style>
