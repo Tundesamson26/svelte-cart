@@ -3,6 +3,5 @@
   import "@appwrite.io/pink-icons";
 </script>
 
-<template>
   <h1>Hello</h1>
-</template>
+
