@@ -1,3 +1,8 @@
+<script>
+  import "@appwrite.io/pink";
+  import "@appwrite.io/pink-icons";
+</script>
+
 <section>
   <div
     class="card u-cross-center u-width-full-line u-max-width-400"
