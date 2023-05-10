@@ -1,6 +1,47 @@
 <script>
   import "@appwrite.io/pink";
   import "@appwrite.io/pink-icons";
+  import {account, client} from "../lib/web-init"; 
+
+  account.createAnonymousSession().then(
+  (response) => {
+    console.log(response);
+  },
+  (error) => {
+    console.log(error);
+  }
+);
+
+// export default {
+  
+//   mounted() {
+//     if (account.get !== null) {
+//       try {
+//         client.subscribe("documents", (response) => {
+//           console.log(response);
+//         });
+//       } catch (error) {
+//         console.log(error, "error");
+//       }
+//     }
+//   },
+
+//   methods: {
+//     signIn: async function () {
+//       try {
+//          await account.createEmailSession(
+//           this.email,
+//           this.password
+//         );
+//         alert("user signed in");
+//         this.$router.push({ path: `/profile` });
+//       } catch (e) {
+//         alert("user not exist");
+//         console.log(e);
+//       }
+//     },
+//   },
+// };
 </script>
 
 <section>
