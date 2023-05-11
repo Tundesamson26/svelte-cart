@@ -50,7 +50,7 @@
     style="margin: 100px auto"
   >
     <div class="u-flex u-main-space-between u-cross-center">
-      <h6 class="heading-level-6">Welcome back!</h6>
+      <h6 class="heading-level-6">Welcome back Idans!</h6>
       <button class="icon-x" />
     </div>
 
